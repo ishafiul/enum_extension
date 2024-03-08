@@ -1,7 +1,10 @@
 name: enum_extension
-description: enum extension
+description: enum_extension is an enum extension generator designed to enhance your simple enums
 version: 0.0.2
 repository: https://github.com/ishafiul/enum_extension
+issue_tracker: https://github.com/ishafiul/enum_extension/issues
+
+topics: [build_runner, enum]
 
 environment:
   sdk: ">=3.0.0 <4.0.0"
