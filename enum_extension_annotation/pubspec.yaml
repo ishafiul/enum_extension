@@ -1,7 +1,7 @@
 name: enum_extension_annotation
 description: enum extension
-version: 0.1.0+1
-publish_to: none
+version: 0.0.1
+repository: https://github.com/ishafiul/enum_extension
 
 environment:
   sdk: ">=3.0.0 <4.0.0"

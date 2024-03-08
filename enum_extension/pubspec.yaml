@@ -1,19 +1,17 @@
 name: enum_extension
 description: enum extension
-version: 0.1.0+1
-publish_to: none
-
+version: 0.0.1
+repository: https://github.com/ishafiul/enum_extension
 
 environment:
   sdk: ">=3.0.0 <4.0.0"
 
 dependencies:
-  analyzer:
-  build:
-  build_config:
-  enum_extension_annotation:
-    path: ../enum_extension_annotation
-  source_gen:
+  analyzer: ^6.4.1
+  build: ^2.4.1
+  build_config: ^1.1.1
+  enum_extension_annotation: ^0.0.1
+  source_gen: ^1.5.0
 
 dev_dependencies:
   mocktail: ^1.0.0
