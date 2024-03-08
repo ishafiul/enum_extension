@@ -1,0 +1,10 @@
+builders:
+  enum_extension:
+    import: "package:enum_extension/enum_extension.dart"
+    builder_factories: [ "enumExtensionGen" ]
+    # The `partId` argument to `SharedPartBuilder` is "some_cool_builder"
+    build_extensions: { ".dart": [ "enum.g.part" ] }
+    auto_apply: dependents
+    build_to: cache
+    # To copy the `.g.part` content into `.g.dart` in the source tree
+    applies_builders: [ "source_gen:combining_builder" ]
